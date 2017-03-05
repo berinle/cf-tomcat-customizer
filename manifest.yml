@@ -1,0 +1,7 @@
+---
+applications:
+- name: tomcatconfig
+  host: tomcatconfig-aae
+  memory: 32M
+  buildpack: staticfile_buildpack
+  instances: 1
